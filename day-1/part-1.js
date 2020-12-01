@@ -6,7 +6,7 @@ for (let i=0; i < report.length; i++){
 
         if (calculation === 2020) {
             console.log(report[i] * report[y]);
-            break;
+            return;
         }
         y++;
     }
