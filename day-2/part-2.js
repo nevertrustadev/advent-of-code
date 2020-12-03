@@ -12,7 +12,7 @@ lines.forEach(element => {
 
 });
 
-
+// Work out how many passwords are valid
 Object.values(data).forEach(val => {
     const char = val[0].substr(val[0].length-1, 1);
     const passwordPolicy = val[0].substr(0, val[0].length-2).split('-');
