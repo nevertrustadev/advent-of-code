@@ -6,7 +6,6 @@ let count = 0
 
 lines.forEach(line => {
     let newLine = line.repeat(32);
-    newLine = newLine + '!';
     forestMap.push(newLine);
 });
 
