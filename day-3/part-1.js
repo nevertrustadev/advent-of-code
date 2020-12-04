@@ -9,8 +9,6 @@ lines.forEach(line => {
     forestMap.push(newLine);
 });
 
-console.log(forestMap)
-
 for(let i = 1; i < forestMap.length; i++) {
     if(forestMap[i][currentPosition] === '#') {
         count += 1;

@@ -8,6 +8,5 @@ for (let i=0; i < report.length; i++){
             console.log(report[i] * report[y]);
             return;
         }
-        y++;
     }
 }
